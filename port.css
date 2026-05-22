@@ -1,7 +1,7 @@
-body{
-	margin: 0px 20px;
+/*body{
+	margin: 20px 20px;
 	
-}
+}*/
 /*
 .real{
 	width: 800px;
@@ -10,68 +10,52 @@ body{
 	margin: 0px auto;
 
 }*/
-.menu{
-	
-	position: relative;
-	height: 70px;
-	
-}
-.logo img{
-	height: 70px;
-	width: 180px;
-}
+.ok{
+	width: 200px;
+	height: 25px;
+	background-color: #0fb1b9;
+	border-radius: 18px;
+	padding: 5px;
+	text-align: center;
+	float: left;
+	margin-right: 15px;
 
-.horizontal_menu{
-	position: absolute;
-	right: 30px;
-	top: 5px;
-	display: flex;
-	justify-content: center;
-	list-style: none;
 }
-.horizontal_menu ul li.active > a
-{
-	color: #fff;
-	background-color:  #1e1e1e;
-}
+p{
 
-li a{
-	text-decoration: none;
-	padding: 0 30px;
-	color: black;
-	font-size: 18px;
-	font-weight: 500;
 }
-li a:hover{
-	color: #8B0000;
-}
-.header{
-
-	position: relative;
-}
-.textwelcom .text1{
-	position: absolute;
-	right: 350px;
-	top: 70px;	
-	font-size: 30px;
-	color: #fff;
-	text-align: right ;
-	line-height: 60px;
-}
-.textwelcom span{
-	font-size: 100px; 
-	font-weight:  bold;
-}
-.textwelcom .text2{
-	position: absolute;
-	bottom: 100px;
-	left: 570px;
-	font-size: 20px;
-	color: #fff;
-}
-.header img{
+.foto img{
+	width: 400px;
 	height: 400px;
-	width: 100%;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	border: 3px solid #0fb1b9;
+	/*box-shadow: 5px 5px 5px #0fb1b9;*/
+	float: left;
+
+}
+
+.web{
+    text-align: center;
+    color: #ff3300;
+	margin-bottom: 400px;
+	font-size: 20px;
+	font-weight: bold;
+
+
+}
+.utup{
+	width: 200px;
+	height: 25px;
+	background-color: #ff3300;
+	border-radius: 18px;
+	padding: 5px;
+	text-align: center;
+	
+}
+.utup a{
+	text-decoration: none;	
+	color: black;
 }
 .precontent1{
 	position: relative;
