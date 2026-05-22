@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Окутуучу — Абдималик кызы Нуржан</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+      color: #111;
+    }
+
+    .container {
+      max-width: 1200px;
+      /*margin: 0 auto;*/
+      padding: 40px 20px;
+    }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 60px;
+    }
+
+    .role {
+      background: #cfe3e5;
+      padding: 10px 20px;
+      border-radius: 30px;
+      font-weight: 500;
+    }
+
+    .name {
+      font-size: 22px;
+      font-weight: 600;
+      margin-left: 20px;
+    }
+
+    .left-header {
+      display: flex;
+      align-items: center;
+    }
+
+    .telegram a {
+      text-decoration: none;
+      color: #111;
+      font-weight: 500;
+    }
+
+    /* MAIN */
+    .main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     /* gap: 60px;*/
+      align-items: center;
+    }
+
+    .photo img {
+      width: 400px;
+      height: 400px;
+      border-radius: 12px;
+      object-fit: cover;
+    }
+
+    .content p {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 24px;
+    }
+
+    /* TAGS */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 20px;
+    }
+
+    .tag {
+      padding: 12px 22px;
+      border-radius: 999px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+    }
+
+    .orange { background: #f47b57; }
+    .pink   { background: #f28ad8; }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .main {
+        grid-template-columns: 1fr;
+      }
+
+      .header {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+      }
+    }
+    .maincontent{
+  position: relative;
+}
+.maincontent img{
+  height: 270px;
+  width: 250px;
+  float: left;
+  margin: 5px 30px 5px 0px;
+  border-radius: 20px;
+}
+.maincontent span, h3 {
+  color: #16695d;
+  font-weight: bold;
+}
+.kojokelen, .karakoi, .abshyr-ata, .arslanbap, .izumrudnoe-ozero, .sonkel, .sary-chelek{
+  position: absolute;
+  height: 350px;
+  width: 560px;
+  box-shadow: 0 0 5px #000;
+  border-radius: 20px;
+  padding: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+.sary-chelek a{
+  text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #16695d;
+   font-weight: bold;
+} 
+.izumrudnoe-ozero a{
+  text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #16695d;
+   font-weight: bold;
+} 
+.abshyr-ata a{
+  text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #16695d;
+   font-weight: bold;
+}
+.kojokelen a{
+  text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #16695d;
+   font-weight: bold;
+}
+.karakoi a{
+  text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #16695d;
+   font-weight: bold;
+}
+.sonkel a{
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #16695d;
+   font-weight: bold;
+}
+.arslanbap a{
+  text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+   color: #16695d;
+   font-weight: bold;
+}
+.kojokelen{
+  left: 50px;
+  font-size: 17px;
+  line-height: 17px;
+}
+.list{
+  list-style: none;
+} 
+.karakoi{
+  right: 50px;  
+}
+.abshyr-ata{
+  left: 50px;
+  top: 400px;
+}
+.arslanbap{
+  right: 50px;
+  top: 400px;
+}
+.izumrudnoe-ozero{
+  left: 50px;
+  top: 800px; 
+}
+.sonkel{
+  right: 50px;
+  top: 800px;
+}
+.sary-chelek{
+  top:1200px;
+  left: 370px;
+  height: 600px;
+}
+.sary-chelek  .day2{
+  margin: 0px 0px 0px 20px;
+}
+.extra_content{
+  position: relative;
+  top:1850px;
+  height: 350px;
+  border: 1px dotted #16695d;
+  background-color: #272828;
+  
+}
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="header">
+      <div class="left-header">
+        <div class="role">Окутуучу</div>
+        <div class="name">Абдималик кызы Нуржан</div>
+      </div>
+
+     <!--  <div class="telegram">
+        Telegram: <a href="#"></a>
+      </div> -->
+    </header>
+
+    <main class="main">
+      <div class="photo">
+        <img src="Портфолио/фото главный.jpg" alt="Абдималик кызы Нуржан">
+      </div>
+
+      <div class="content">
+        <p>
+         Жакшы мугалим болуу үчүн, окуткан сабакты жана окуучуну сүйүү зарыл
+        </p>
+
+        <p>
+          ОшМУ STEM инновациялык колледжи информациялык-коммуникациялык дисциплиналар циклы ✨
+        </p>
+
+        <div class="tags">
+          <div class="tag orange">ИКД циклы</div>
+          <div class="tag pink">0772009595</div>
+          <div class="tag pink">nurzhannata@gmail.com</div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+<div class="maincontent">
+    <div class="kojokelen">
+      <img src="image/резюме.png">
+      <h3>Окутуучу жөнүндө маалымат:</h3>
+      <p><span><a href="Портфолио/Резюме_Нуржан 2025.pdf"> Резюме</a></span></p>
+      <p><span><a href="Документы/Окутуучунун анкетасы.pdf">Окутуучунун анкетасы</a></span></p>
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+    </div>
+    <div class="karakoi">
+      <img src="image/бил.png">
+      <h3>Билими</h3>
+      <p><span>Специалитет:</span> <a href="Документы/Диплом_2015.pdf"> ОшМУ МИТФ Диплом</a></p>
+      <p><span>Магистр:</span><a href="Документы/Диплом_2021.pdf" > ОшМУ МИТФ Диплом</a></p>
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="abshyr-ata">
+      <img src="image/повышение.png">
+      <h3>Квалификацияны жогорулатуу</h3>
+      <p><span>2022-2023-2025-2026-о.ж.<br></span><a href="Документы/Квалификацияны жогорулатуу курстарына катышкан  көрсөткүчтөрү боюнча маалымат.pdf">Квалификацияны жогорулатуу боюнча маалымат </a></p>
+      <!-- <p><span>Чыккан жылы:</span>2025</p> -->
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="arslanbap">
+      <img src="image/илимий.png">
+      <h3>Илимий эмгектер</h3>
+      <p><span></span><a href="Документы/илимий эмгектердин тизмеси.pdf"> Илимий эмгектердин тизмеси </a> </p>
+      
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="izumrudnoe-ozero">
+      <img src="image/сыйлык.png">
+      <h3>Сыйлыктар</h3>
+      <p><span>STEM инновациялык колледжинин </span><a href="https://www.instagram.com/p/C7lr3uBsL-Y/?igsh=MTl2aGR5ZDducmdoaw==">Ардак Грамотасы</a></p>
+      <p><span>STEM инновациялык колледжинин </span><a href="https://www.instagram.com/p/DHa0B2msqCy/?igsh=MTBsb3BxY2x4cHR2dg==">Ыраазычылык баракчасы</a></p>
+      <p><span>ОшМУнун </span><a href="https://stem.oshsu.kg/pages/page/26884">Ардак Грамотасы</a></p>
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="sonkel">
+      <img src="image/кошумча иш.png">
+      <h3>Кошумча аткарган кызматтык милдетим</h3>
+      <p><span>Кызматым:</span><a href="https://stem.oshsu.kg/pages/page/22040">ИКД циклынын ОМК боюнча жооптусу</a></p>
+    <p><span>Алдыңкы тажрыйбаны жайылтуу:</span><a href="https://www.instagram.com/p/DDHuDIFO8LT/?img_index=8&igsh=MzZicmQxOWpmYTZz">Окутуудагы жаңы инновациялык технологиялар</a></p>
+      <ul class="list">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="sary-chelek">
+      <img src="image/конференция.png">
+      <h3>Илимий-практикалык конференциялар</h3>
+      <p><span>12-13-сентябрь 2025-жыл <br></span><a href="https://stem.oshsu.kg/pages/page/24249"> доцент М.Алтыбаеванын 75 жылдык мааракеси</a></p>
+      <p><span>15-май 2025-жыл</span> <a href="https://stem.oshsu.kg/pages/page/23134">ОшМПУ 100 жылдыгына жана п.и.к., доцент Зырапа Абдывасиеванын 70 жылдык мааракеси</a></p>
+      <p><span>26-27-сентябрь 2024-жыл</span> <a href="https://stem.oshsu.kg/pages/page/26382">ф.-м.и.к., доцент Абдувалиев Абдыганы Осмоновичтин 70 жылдыгына жана илимий педагогикалык ишмердүүлүгүнүн 50 жылдыгына арналган маараке</a></p>
+      <p><span>30-май 2024-жыл Наманган Мамлекеттик Университети</span> <a href="https://www.instagram.com/p/C7lsK3IsxK-/?igsh=YzljeDc0aXluZGlm"> Международная научно-практическая конференция "Географическая наука и цифровая эконмика: проблемы и перспективы"</a></p>
+       <p><span>30-октябрь 2023-жыл Андижан технологиялык институту</span> <a href="https://stem.oshsu.kg/pages/page/23162"> Тажрыйба алмашуу</a></p>
+    </div>
+  </div>    
+</body>
+</html>
+
+
